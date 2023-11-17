@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ECOECHO .. </title>
+</head>
+
+<body background ="https://img.freepik.com/free-vector/green-fluid-background-frame_53876-114482.jpg?w=900&t=st=1699897218~exp=1699897818~hmac=d98d3e1408d051ebcea2f0d8888b8b7707948abf19fb35d7953a4b8583bc623a" style="background-repeat:no-repeat;background-size:100%">
+
+    <h1> <img style="vertical-align:middle"src="EcoEcho.png" width="50px" height="50px" > &nbsp;ECOECHO</h1>
+    <form action="">
+    <input type="file" id="ip-img" multiple>
+        <div id="box">
+            <div>
+                 <!--<i class="fa-solid fa-upload fa-bounce fa-2xl" style="color: #a0abac;"></i>!-->
+                <i class="fa-solid fa-arrow-up fa-bounce fa-3x" style="color: #a0abac;"></i>
+            </div>
+            <div><h2>Drag your image here or click to upload it</h2></div>
+           
+            
+        </div>
+    </form>
+
+    <div class="img" id="imggg"></div>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .img {
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+        
+        #imggg {
+            width: 80vw;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 20px;
+        }
+        
+        #ip-img {
+            display: none;
+        }
+        
+        .innerimg {
+            height: 100%;
+            width: 100%;
+        }
+        #box{
+            width: 500px;
+            height: 300px;
+            border: 3px solid rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            margin: auto;
+            cursor: pointer;
+        }
+        .clear {
+            background-color: rgba(255, 7, 7, 0.1);
+        }
+    </style>
+</body>
+</html>
