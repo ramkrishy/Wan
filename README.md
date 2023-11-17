@@ -1,2 +1,2 @@
 # Wan
-Welcome Everyone
+Welcome Everyone.
